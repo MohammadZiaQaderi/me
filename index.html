@@ -6,74 +6,42 @@
     <title>Mohammad Zia Qaderi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap" 
-    rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-        .me {
-            font-family: "Sevillana", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-        header {
-            background-color: #e9f5e9; 
-            height: 640px;
-            padding-top: 60px;
-        }
         .header-container {
-            min-height: 200px;
-            min-width: 500px;
-            margin: 0 auto;
-            text-align: center;
             color: blue;
-            /* border: 1px solid black; */
-           
         }
-        .header-container * {
-            margin-top: 50px;
-        }
-        .img
-        {
-            border-radius: 100px;
-        }
-        main {
-            font-family:Arial, Helvetica, sans-serif;
-            letter-spacing: 3px;
-            word-spacing: 5px;
-            line-height: 20px;
-        }
-        footer {
-            height: 120px;
+        .img-me {
+            border-radius: 50%;
         }
     </style>  
-</head>
+  </head>
   <body>
-   <div class="container-fluid">
-
-    <header>
-        <div class="header-container">
-            <h1 class="me">I am Mohammad Zia Qaderi</h1>
-            <h2>A Programmer</h2>
-            <img class="mt-5 pt-5 py-5" width="700px" src="mountain.webp"/>
-        </div>
-    </header>
-    <main class="text-center">
-        <img width="150px" src="me.jpg" alt="my Picture" class="img mt-5">
-        <h1 class="text-primary my-5">HELLO,</h1>
-        <p>I am a Fullstack web developer,</p>
-        <p>I am master degree in Computer Science,</p>
-        <p> I have 3 months of work experience <p> 
-      
-        <p> I love &heartsuit; coding</p>
-        <h1 class="text-primary my-5">My Skills</h1>
-
-         <h2 class="text-primary my-5">Design & Development</h2>
-     
-         <p>I started learn to code when my background was Mathematics</p>
-         <p>Now I am able to code, develop and build amazing softwares<p>
-    </main>
-   </div>
-   <footer class="bg-primary"></footer>
+    <div class="container-fluid">
+        <header class="bg-light text-center py-5">
+            <div class="header-container">
+                <h1 class="fw-normal" style="font-family: 'Sevillana', cursive;">I am Mohammad Zia Qaderi</h1>
+                <h2 class="text-primary">A Programmer</h2>
+                <img src="mountain.webp" alt="Mountain Image" class="img-fluid mt-4 rounded-3" style="max-width: 100%; height: auto;">
+            </div>
+        </header>
+        <main class="text-center py-5">
+            <img src="me.jpg" alt="My Picture" class="img-fluid img-me" style="width: 150px;">
+            <h1 class="text-primary my-4">HELLO,</h1>
+            <p>I am a Fullstack web developer,</p>
+            <p>I have a Master's degree in Computer Science,</p>
+            <p>I have 3 months of work experience</p>
+            <p>I love &heartsuit; coding</p>
+            <h1 class="text-primary my-4">My Skills</h1>
+            <h2 class="text-primary my-4">Design & Development</h2>
+            <p>I started learning to code when my background was Mathematics.</p>
+            <p>Now I am able to code, develop, and build amazing software.</p>
+        </main>
+    </div>
+    <footer class="bg-primary text-white text-center py-3">
+        <p class="mb-0">© 2024 Mohammad Zia Qaderi</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-zaB0w8uPofJ1LKlzYtW5bhFfH1kC42f1P6zBGtHtz08SO7lscd/BhU9x3d9DFx2G" crossorigin="anonymous"></script>
   </body>
 </html>
